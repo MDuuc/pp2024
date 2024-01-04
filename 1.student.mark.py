@@ -21,6 +21,7 @@ def getInforStd(num_std):
         }
         students.append(std_info)
     return students
+
 #course
 def numOfCourse():
     num_course = 0
@@ -41,6 +42,7 @@ def getInforCourse(num_course):
         }
         courses.append(course_info)
     return courses
+
 #mark
 def inputMark(students, courses):
     marks={}
@@ -55,6 +57,7 @@ def inputMark(students, courses):
             marks[student_id][course_id] = mark
     return marks
 
+#print
 def printStd(students):                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
     print("\nStudent list:")
     for student in students:
@@ -77,6 +80,7 @@ def printMark(students, courses, marks):
             mark = marks.get(student_id, {}).get(course_id, {})
             print(f"Marks in {course_name}: {mark}")
 
+#main
 def main():
     students = []
     courses = []
