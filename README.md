@@ -9,6 +9,6 @@ Students are expected to:
 Student Info
 =========================
 
-* Student Name: Tạ Minh Đức
+* Student Name: Ta Minh Duc
 * Student ID: 22BI13097
 
