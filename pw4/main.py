@@ -65,7 +65,7 @@ while True:
             print(f"ID: {s['id']}, Name: {s['name']}, DoB: {s['dob']}, GPA: {s.get('gpa', 'N/A')}")
 
     elif choice == 0:
-        print("Exiting the program.")
+        print("Exiting the program. ")
         break
 
     else:
