@@ -132,7 +132,7 @@ class mark:
 
 
 student1 = student()
-course1 = course()
+course1 = course()~
 mark1 = mark()
 
 while True:
